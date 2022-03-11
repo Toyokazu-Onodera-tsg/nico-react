@@ -19,13 +19,12 @@ export const Select = (props) => {
       <SList value={value} onChange={onChangeList}>
         {options}
       </SList>
-      　
     </SNowrap>
   );
 };
 //voteだけスタイルを変えたい時はvote=trueになっているので、それを使って変更する。(どうするかは要調査^^;)
 const SList = styled.select`
-  margin: 3%;
+  margin: 0.2em;
   padding: 5px 10px;
 
   font-size: 18px;
