@@ -87,7 +87,7 @@ export const Main = memo(() => {
           data={data}
           history={"「" + comment + "」を質問で送信"}
         >
-          質問として送信
+          コメント送信（残す）
         </Button>
       </DefaultArea>
 
