@@ -82,6 +82,7 @@ export const Main = memo(() => {
         <Button para={comment} data={data} history={"「" + comment + "」"}>
           コメント送信
         </Button>
+        {/*
         <Button
           para={"@Q:" + comment}
           data={data}
@@ -89,6 +90,7 @@ export const Main = memo(() => {
         >
           質問・意見等(残す)
         </Button>
+        */}
       </DefaultArea>
 
       <DefaultArea pic={picNice}>
